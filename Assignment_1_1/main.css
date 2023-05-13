@@ -1,0 +1,203 @@
+body {
+    background-color: black;
+    color: limegreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+  color: papayawhip;
+  text-decoration: none;
+}
+a:hover {
+  color: magenta;
+}
+h1, h2 {
+    color: lime;
+    text-align: center;
+}
+.lineEntry {
+    float:left;
+}
+.dosLink {
+    color: white;
+    text-decoration: underline whitesmoke 2px;
+    font-weight: bolder;
+}
+.blinkingLine {
+    opacity: 0%;
+    animation: blinker 1s step-end 6.5s infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 100;
+    }
+  }
+.nav {
+    border: dashed 3px yellowgreen;
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    padding-left: 10px;
+    line-height: 30px;
+    background: blue;
+}
+#userInfo {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: large;
+}
+.typed {
+    display: inline-block;
+    overflow: hidden;
+    width: 0;
+    border-right: 2px solid;
+    animation: typing 1.5s steps(30, end) 10ms forwards;
+    white-space: nowrap;
+    padding: 5px;
+  }
+
+  @keyframes typing {
+    from {
+        width: 0
+        
+    }
+    to {
+        width: 100%
+    }
+    from {
+        border-right: 2px solid;
+    }
+    to {
+        border-right: 0px solid;
+    }
+  }
+  ul {
+    list-style-type: square;
+  }
+.typed2 {
+    display: inline-block;
+    overflow: hidden;
+    width: 0;
+    border-right: 0px solid;
+    animation: typing2 1.5s steps(30, end) 2s forwards;
+    white-space: nowrap;
+  }
+
+  @keyframes typing2 {
+    from {
+        width: 0
+        
+    }
+    to {
+        width: 112px
+    }
+    from {
+        border-right: 2px solid;
+    }
+    to {
+        border-right: 0px solid;
+    }
+  }
+  .typed3 {
+    display: inline-block;
+    overflow: hidden;
+    height: 0;
+    animation: typing3 1.5s steps(30, end) 4s forwards;
+    white-space: nowrap;
+  }
+
+  @keyframes typing3 {
+    from {
+        height: 0;
+        width: 650px;
+        opacity: 0%;
+    }
+    to {
+        height: 300px;
+        width: 650px;
+        opacity: 100%;
+    }
+    from {
+        border: 0px solid darkgreen;
+    }
+    to {
+        border: 4px dashed lime;
+    }
+  }
+  .typed4 {
+    display: inline-block;
+    overflow: hidden;
+    width: 0;
+    border-right: 0px solid;
+    animation: typing4 2.0s steps(30, end) 5.5s forwards;
+    white-space: nowrap;
+  }
+
+  @keyframes typing4 {
+    from {
+        width: 0
+        
+    }
+    to {
+        width: 100%
+    }
+    from {
+        border-right: 2px solid;
+    }
+    to {
+        border-right: 0px solid;
+    }
+  }
+  .typed5 {
+    display: inline-block;
+    overflow: hidden;
+    width: 0;
+    border-right: 0px solid;
+    animation: typing5 3.0s steps(30, end) 2.5s forwards;
+    white-space: nowrap;
+  }
+
+  @keyframes typing5 {
+    from {
+        width: 0
+        
+    }
+    to {
+        width: 100%
+    }
+    from {
+        border-right: 2px solid;
+    }
+    to {
+        border-right: 0px solid;
+    }
+  }
+#imageBox {  
+    border: 3px dashed lime;
+    padding: 5px;
+    float: left;
+    height: 450px;
+    margin-left: 5px;
+    width: 1500px;
+}
+#memeImage {
+  padding: 5px;  
+  margin-right:200px;
+  margin-left: 400px;
+}
+#memeQuote {
+  color: lime;
+  font-size: small;
+}
+.contentBox {
+  float: left;
+  border: 3px dashed limegreen;
+  height: 200px;
+  margin-left: 5px;
+  width: 1500px;
+}
+.footer {
+    text-align: center;
+    margin-right: 200px;
+}

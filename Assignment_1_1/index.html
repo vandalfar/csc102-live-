@@ -1,0 +1,47 @@
+<!--Assigment 1.1 for CSC102MAY2023 created by Michael Anderson-->
+<!--Used Bang (!) template to generate simple HTML page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--what if the internet was still DOS based?-->
+    <title>UAT InterWeb Terminal</title>
+    <!--makes the page look like a DOS terminal through linking an external style sheet-->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1><span class="lineEntry"> > </span>UAT:\InterWeb\Home></h1>
+    <div class="nav">
+        <p>
+            <!--using spans to create separate look from header on the top of the nav bar, may be changed in the future to reflect a true header
+                typed class creates typing animation-->
+            <span id="userInfo">>&nbsp;Nav Bar<br><span class="typed">>&nbsp;&nbsp; u/micander2</span></span>
+            <ul  class="typed2">
+             <!--link to course objectives from catalog-->
+              <li>
+                 <a href="boards.html">
+                    <!--using spans to create the desired look and animations-->
+                    <span class="dosLink">O</span>bjectives<span class="blinkingLine"> |</span>
+                 </a>
+                </li>
+            </ul>
+        </p>
+    </div>
+    <!--divs create the separate boxes for the website-->
+    <div id="imageBox">
+        <p>    
+            <h2>Today's Funny Thought</h2>
+            <!--image sourced from reddit, original comic author Kevin Green, two panels made for the webcomic Gunshow-->
+            <img id="memeImage" class="typed3" src="images/thisIsFine.jpg">
+        </p>
+    <p class="typed4">
+        <span id="memeQuote">>u/theonefoster  \\ Accurate representation of me dealing with university stress</span>
+    </p>
+    </div>
+    <div class="footer">
+        <p>(c) 2023 Michael Anderson</p>
+    </div>
+</body>
+</html>
